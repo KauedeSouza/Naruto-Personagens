@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naruto - Personagens</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed&display=swap" rel="stylesheet">
+    <!--(ALT+SHIFT+F) PARA INDENTAR-->
+
+    <link rel="stylesheet" href="./src/css/reset.css"> <!--LINK CSS-->
+    <link rel="stylesheet" href="./src/css/estilos.css"> <!--LINK CSS-->
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+    <link rel="shortcut icon" href="./src/imagens/logo-naruto-icon.png">
+</head>
+
+<body> <!--PESQUISE POR SEMÂNTICA-->
+    <header class="cabecalho">
+        <img class ="logo" src="./src/imagens/naruto-logo-shippuden.png" alt="Logo valorant">
+    </header> <!--CABEÇALHO-->
+    <main class="selecao-de-personagens">
+        <section class="personagens">
+            <h1 class="titulo"> Selecione um personagem </h1>
+            <!--ID É UM IDENTIFICADOR, SÓ PODE HAVER UM ID POR CÓDIGO, É MUITO UTILIZADO PARA INTERAÇÕES COM O JavaScript-->
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="Naruto" data-name="Naruto" data-description="Naruto Uzumaki é um menino que vive em Konohagakure no Sato ou simplesmente Konoha ou Vila Oculta da Folha, a vila ninja do País do Fogo. Quando ainda bebê, Naruto teve aprisionada em seu corpo a Kyuubi no Youko por Minato Namikaze (quarto Hokage, e seu pai).">
+                    <img src="./src/imagens/Narutoicon.jpg" alt="Personagem Naruto">
+                </li>
+                <li class="personagem" id="Sasuke" data-name="Sasuke" data-description=" Sasuke é membro do clã Uchiha, que era uma habilidosa família de ninjas da Vila Oculta da Folha. Seu objetivo inicial é vingar a destruição de seu clã, matando seu irmão Itachi Uchiha, que assassinou quase todos sozinho.">
+                    <img src="./src/imagens/sasukeicon.jpg" alt="Personagem Sasuke">
+                </li>
+                <li class="personagem" id="Sakura" data-name="Sakura" data-description="Sakura é uma kunoichi afiliada com a vila de Konoha, e parte da equipe 7, que consiste de si mesma, Naruto Uzumaki, Sasuke Uchiha e seu sensei, Kakashi Hatake. Sakura inicialmente é apaixonada por Sasuke, elogiando-o em cada situação, e desprezando Naruto.">
+                    <img src="./src/imagens/sakuraicon.jpg" alt="Personagem Sakura">
+                </li>
+                <li class="personagem" id="Kakashi" data-name="Kakashi" data-description="Kakashi é o filho de Sakumo Hatake e estudante do Quarto Hokage juntamente com Obito Uchiha e Rin Nohara. Após a morte de seu pai, Kakashi começou a seguir rigorosamente os preceitos ninja, em especial o segundo o qual o sucesso da missão vem antes da salvação.">
+                    <img src="./src/imagens/kakashiicon.jpeg" alt="Personagem Kakashi">
+                </li>
+                <li class="personagem" id="Jiraya" data-name="Jiraya" data-description=" Jiraiya é um dos Sannin Lendários, conhecido como o Sannin dos sapos, ou Ero-Sennin (Sábio Tarado) ou Gama Sennin (Sábio dos Sapos), junto com Orochimaru e Tsunade.">
+                    <img src="./src/imagens/jirayaicon.jpg" alt="Personagem Jiraya">
+                </li>
+                <li class="personagem" id="Itachi" data-name="Itachi" data-description="Itachi é o irmão mais velho de Sasuke Uchiha e é responsável pela morte de todos os membros de seu clã, poupando apenas Sasuke. Durante boa parte da série, ele é tratado como um ninja renegado, mas perto do momento de sua morte, o seu papel como vilão é bastante diminuído.">
+                    <img src="./src/imagens/itachiicon.jpg" alt="Personagem Itachi">
+                </li>
+                <li class="personagem" id="Gaara" data-name="Gaara" data-description="Gaara é o terceiro e mais novo filho do Kazekage Rasa e sua esposa Karura, sendo o irmão mais novo de Temari e Kankuro. Logo em seu nascimento, seu pai faz com que Chiyo selasse o Shukaku dentro de seu próprio filho, tendo a intenção de usá-lo como uma arma de sua vila no futuro.">
+                    <img src="./src/imagens/gaaraicon.jpg" alt="Personagem Gaara">
+                </li>
+                <li class="personagem" id="Minato" data-name="Minato" data-description="Minato era temido por seus oponentes, sendo capaz de atacar batalhões inteiros com um só golpe, a Técnica do Deus Voador do Trovão. Suas proezas na guerra lhe garantiram o apelido de (Relâmpago Amarelo de Konoha) o que ajudou seu nome a ser escolhido futuramente para o título de Hokage.">
+                    <img src="./src/imagens/minatoicon.jpg" alt="Personagem Minato">
+                </li>
+            </ul>
+        </section>
+        <section class="personagem-selecionado">
+            <img class="personagem-grande" src="./src/imagens/card-Naruto-art.png" alt="Personagem Selecionado">
+            <div class="informacoes-personagem">
+                <h2 class="nome-personagem" id="nome-personagem">Naruto</h2>
+                <p class="descricao-personagem" id="descricao-personagem">
+                    Naruto Uzumaki é um menino que vive em Konohagakure no Sato ou simplesmente
+                    Konoha ou Vila Oculta da Folha, a vila ninja do País do Fogo. Quando ainda bebê,
+                    Naruto teve aprisionada em seu corpo a Kyuubi no Youko por Minato Namikaze (quarto Hokage, e seu pai).
+                </p>
+            </div>
+        </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
