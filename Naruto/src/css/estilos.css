@@ -79,8 +79,8 @@ body::before{ /*DOIS PONTOS -> PSEUDO ELEMENTO*/
 }
 
 .personagem-selecionado .personagem-grande{
-    width: 280px;
-    height: 300px;
+    width: 350px;
+    height: 470px;
 }
 
 .personagem-selecionado .nome-personagem{
